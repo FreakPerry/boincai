@@ -1,0 +1,158 @@
+.header {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  width: 150px;
+  box-sizing: border-box;
+}
+
+.header__logo-img {
+  width: inherit;
+}
+
+.header__menu-items {
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__menu-item {
+  list-style: none;
+}
+
+.menu__img {
+  position: absolute;
+  width: 15px;
+  bottom: 2px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.header__menu-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter';
+}
+
+.text {
+  display: inline-block;
+  opacity: 0.6;
+  transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.header__menu-link:hover .menu__img {
+  opacity: 1;
+}
+
+.header__menu-link:hover .text {
+  transform: translateX(-5px);
+  opacity: 1;
+}
+
+.header__src-img {
+  width: 25px;
+}
+
+.header__auth-items {
+  display: flex;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__auth-item {
+  width: fit-content;
+  height: 30px;
+  padding: 5px 10px;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header__auth-link {
+  display: flex;
+  position: relative;
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+
+.header__src-img {
+  transition: transform 1s;
+}
+
+.header__auth-link:hover .header__src-img {
+  transform: rotateY(180deg);
+}
+
+.login {
+  background-color: white;
+}
+
+.link-login {
+  position: relative;
+  color: #000;
+  opacity: 1;
+  margin: 0 20px;
+}
+
+.login-text {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-login:hover .login-text {
+  transform: translateX(10px);
+}
+
+.login-img {
+  position: absolute;
+  width: 17px;
+  bottom: 0;
+  left: -12px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.link-login:hover .login-img {
+  opacity: 1;
+}
+
+.lang-img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.2s;
+}
+
+.lang-link {
+  text-align: end;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transition: width 1s ease-in-out;
+}
+
+.lang-text {
+  z-index: 2;
+}
+
+.lang-link:hover {
+  width: 50px;
+}
+
+.lang-link:hover .lang-img {
+  transform: translateX(100%);
+}
