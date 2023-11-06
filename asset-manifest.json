@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/boincai/static/css/main.80cfe930.css",
+    "main.js": "/boincai/static/js/main.990ebdac.js",
+    "static/js/787.aa4fd305.chunk.js": "/boincai/static/js/787.aa4fd305.chunk.js",
+    "static/media/background.7c889aef.png": "/boincai/static/media/background.7c889aef.1d291c1bd1f654f277a2.png",
+    "static/media/Inter-Medium.woff": "/boincai/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Regular.woff": "/boincai/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/src.svg": "/boincai/static/media/src.2379c72e1b7340f5117ddba0cdec71fd.svg",
+    "index.html": "/boincai/index.html",
+    "static/media/user-profile-circle.svg": "/boincai/static/media/user-profile-circle.e091d0d66e41de76bfe4045e10076cb2.svg",
+    "static/media/cube-shape.svg": "/boincai/static/media/cube-shape.43052d0eafd24b12935e2991d81de129.svg",
+    "main.80cfe930.css.map": "/boincai/static/css/main.80cfe930.css.map",
+    "main.990ebdac.js.map": "/boincai/static/js/main.990ebdac.js.map",
+    "787.aa4fd305.chunk.js.map": "/boincai/static/js/787.aa4fd305.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80cfe930.css",
+    "static/js/main.990ebdac.js"
+  ]
+}
